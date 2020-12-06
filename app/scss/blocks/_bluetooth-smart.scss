@@ -1,0 +1,21 @@
+.bluetooth-smart {
+  padding-top: 54px;
+  background: linear-gradient(281.7deg, #302C34 11.23%, #59555D 42.92%, #4A474F 52.23%, #232224 94.08%);
+  border-radius: 4px;
+
+  &__text,
+  &__img {
+    width: 50%;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__paragraph {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+  }
+}

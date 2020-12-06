@@ -1,0 +1,39 @@
+.steps {
+  background: linear-gradient(281.7deg, #302C34 11.23%, #59555D 42.92%, #4A474F 52.23%, #232224 94.08%);
+
+  &__list {
+    padding: 71px 0 64px 30px;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 32px;
+
+
+    &::marker {
+      color: $blue;
+      position: absolute;
+      font-family: "Oswald";
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 48px;
+      letter-spacing: 0.01em;
+    }
+  }
+
+  &__img {
+
+    img {
+      left: -98%;
+      height: 100%;
+      max-width: none;
+      width: auto;
+    }
+  }
+}

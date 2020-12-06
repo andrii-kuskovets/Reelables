@@ -1,0 +1,43 @@
+.workflow {
+  padding: 64px;
+  background: linear-gradient(103.21deg, #302C34 2.8%, #59555D 26.3%, #4A474F 37.81%, #232224 92.31%);
+
+  &__block {
+    width: 19%;
+    padding: 24px 15px 0 15px;
+    min-height: 222px;
+    margin-bottom: 14px;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: url("../img/frame.png") center (center / 100% 100%) no-repeat;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .item {
+    &__title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+
+    &__paragraph {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+}

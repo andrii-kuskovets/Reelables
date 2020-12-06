@@ -1,0 +1,110 @@
+.btn {
+  border-color: $blue;
+  border-radius: 22px;
+  color: #5d676f;
+
+  &-icon {
+    path {
+      fill: $blue;
+    }
+  }
+
+  span {
+    margin-right: 24px;
+  }
+
+  &:hover {
+    background-color: $blue;
+    border-color: #ffffff;
+
+    .btn-icon {
+      path {
+        fill: #ffffff;
+      }
+    }
+  }
+
+  &-primary,
+  &-secondary {
+    font-family: 'Oswald';
+    padding: 16px 20px;
+    border: none;
+    background-color: #E3E0DD;
+    border-radius: 36px;
+    min-width: 190px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+
+    .btn-icon {
+      height: 100%;
+      path {
+        fill: none;
+        stroke: $blue;
+        width: 9px;
+        height: 18px;
+      }
+    }
+
+    span {
+      margin-right: 0;
+    }
+
+    &:hover {
+      .btn-icon {
+        path {
+          fill: none;
+          stroke: #ffffff;
+        }
+      }
+    }
+  }
+
+  &-secondary {
+    background-color: #2E2B32;
+    color: #ffffff;
+    justify-content: space-evenly;
+    margin-left: 30px;
+
+    .btn-icon {
+      path {
+        fill: none;
+        stroke: #ffffff;
+      }
+    }
+
+    &_submit {
+      margin-left: 0;
+
+      .btn-icon {
+        path {
+          stroke: $blue;
+        }
+      }
+    }
+  }
+
+  &-white {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+
+    .btn-icon {
+      path {
+        fill: #ffffff;
+      }
+    }
+
+    &:hover {
+      background-color: #ffffff;
+      color: $light-black;
+
+      .btn-icon {
+        path {
+          fill: $light-black;
+        }
+      }
+    }
+  }
+}

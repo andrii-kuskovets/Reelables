@@ -1,0 +1,37 @@
+.footer {
+  padding: 43px 0 48px 0;
+  background-color: #514E55;
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 14px;
+    a {
+      color: #ffffff;
+    }
+
+    .navbar-nav .nav-link {
+      padding-left:0;
+      padding-right: 24px;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+
+  &__wrapper {
+    border-bottom: 1px solid #757378;
+    margin-bottom: 24px;
+  }
+
+  .copyright {
+    span {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #757378;
+    }
+  }
+}

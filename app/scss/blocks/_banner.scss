@@ -1,0 +1,52 @@
+.wrapper-bg {
+  background: linear-gradient(107.89deg, #E1DDDB 0%, #F2F1ED 21.28%, #FDFCF9 65.53%, #E6E0DD 100.12%);;
+}
+
+.banner {
+  padding-top: 50px;
+
+  &__wrapper {
+    padding-bottom: 134px;
+  }
+
+  &__img {
+    right: 0;
+    top: 0;
+    height: 100%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .main-content {
+    width: 59%;
+
+    &__title {
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 66px;
+      color: $d-black;
+      margin-bottom: 24px;
+    }
+
+    &__paragraph {
+      color: $d-black;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.01em;
+      margin-bottom: 36px;
+    }
+  }
+
+  .subcontent {
+    padding: 20px;
+    background-color: #CED5D8;
+
+    &__paragraph {
+      margin-bottom: 0;
+      color: $d-black;
+    }
+  }
+}

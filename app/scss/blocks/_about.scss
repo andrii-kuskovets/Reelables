@@ -1,0 +1,32 @@
+.about {
+  padding: 64px 0;
+  background: linear-gradient(0deg, rgba(85, 202, 232, 0.07) 0%, rgba(196, 196, 196, 0) 40.2%);
+
+  &__img {
+    padding-left: 0;
+
+    span {
+      display: block;
+      height: 100%;
+      background-color: #C4C4C4;
+    }
+  }
+
+  &__text {
+    padding-right: 0;
+
+    p {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 26px;
+      letter-spacing: 0.01em;
+      color: $d-black;
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+}
