@@ -16,6 +16,12 @@
     padding-left: 0;
     padding-right: 24px;
   }
+
+  &__wrapper {
+    @media (max-width: 920px) {
+      flex-direction: row-reverse;
+    }
+  }
 }
 
 .logo {

@@ -11,6 +11,10 @@
     width: 56%;
     margin: 0 auto;
 
+    @media (max-width: 960px) {
+      width: 90%;
+    }
+
     label {
       font-weight: normal;
       font-size: 15px;
@@ -43,5 +47,9 @@
     line-height: 26px;
     letter-spacing: 0.01em;
     color: #4AC9F3;
+  }
+
+  .btn {
+    max-width: 190px;
   }
 }

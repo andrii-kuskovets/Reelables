@@ -1,13 +1,19 @@
 .workflow {
-  padding: 64px;
+  padding: 64px 0;
   background: linear-gradient(103.21deg, #302C34 2.8%, #59555D 26.3%, #4A474F 37.81%, #232224 92.31%);
 
   &__block {
     width: 19%;
+    min-width: 200px;
     padding: 24px 15px 0 15px;
     min-height: 222px;
     margin-bottom: 14px;
     position: relative;
+
+    @media (max-width: 520px) {
+      min-width: 100%;
+
+    }
 
     &:after {
       content: '';
